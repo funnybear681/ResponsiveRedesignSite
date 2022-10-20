@@ -4,7 +4,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: calc(90vh - 56px);
+    height: calc(100vh - 56px);
 }
 
 .bottom-image {
@@ -26,8 +26,38 @@
          url('../fonts/pt-serif-v17-latin-regular.svg#PTSerif') format('svg'); /* Legacy iOS */
 }
 
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
 
 .white-box{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-items: left;
     background-color:whitesmoke;
+    border: 5px solid burlywood;
+}
+
+.box-header{
+    font-family: "Poppins", normal;
+    font-size: xx-large;
+}
+
+.big-text{
+    font-family: 'PT Serif', normal;
+    font-size: 48pt;
+}
+
+.horizontal{
+    flex-direction: column;
 }
